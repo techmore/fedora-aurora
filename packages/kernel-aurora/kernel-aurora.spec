@@ -1,4 +1,4 @@
-%global commit 15f88e1cf81a6b6a91a1856ca06822a093aedeac
+%global commit ac07a7478c95f24aeead3239db360c653ab04ae0
 %global krel %{version}-%{release}.aarch64
 %global debug_package %{nil}
 # 1 with a kernel pin whose configuration resolves CONFIG_ARM64_CTXR_EXECMEM=y
@@ -11,7 +11,7 @@ Version: 7.3.0
 Release: 31%{?dist}.aurora
 Summary: Aurora kernel for Apple Silicon Macs
 License: GPL-2.0-only
-URL: https://github.com/aurora-silicon/linux
+URL: https://github.com/techmore/linux
 Source0: kernel-aurora-%{commit}.tar.gz
 Source1: config
 Source4: fedora.config

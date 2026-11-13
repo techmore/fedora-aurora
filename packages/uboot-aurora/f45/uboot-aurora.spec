@@ -1,5 +1,5 @@
 %global debug_package %{nil}
-%global commit 48c6b2c5f24e9a245c82d402ad11767ece9e384b
+%global commit 8295be11f8950b23737d834faa75e5dd9f616ba4
 Name: uboot-aurora
 Version: 2026.07
 Release: 10%{?dist}
@@ -16,7 +16,7 @@ BuildRequires: gcc make bc bison flex dtc python3 python3-pyelftools swig openss
 Aurora U-Boot for Apple Silicon. Built from the recorded Aurora source revision.
 
 %prep
-%autosetup -n u-boot-48c6b2c5f24e9a245c82d402ad11767ece9e384b
+%autosetup -n u-boot-8295be11f8950b23737d834faa75e5dd9f616ba4
 
 %build
 make O=build-aurora apple_m1_defconfig
